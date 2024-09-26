@@ -17,7 +17,7 @@ class B extends A {
 
     public static void main(String[] args) {
         B objB = new B();
-        System.out.println(objB.meth()); // Calls the overridden meth() from class B
+        objB.meth(); // Calls the overridden meth() from class B
     
 }
     
